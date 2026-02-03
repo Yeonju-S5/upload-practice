@@ -1,0 +1,286 @@
+/* *************** header *************** */
+.header{
+  width: 1065px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.gnb_top {overflow: hidden;}
+
+.gnb_top .family_site {width: 210px; float: left;}
+
+.gnb_top .gnb_top_menu {
+  float: right;
+}
+
+.gnb_top .gnb_top_menu li {
+  float: left;
+  padding: 5px;
+}
+
+.gnb_top .gnb_top_menu li a {
+  color:#777;
+  font-size: 14px; line-height: 14px;
+}
+
+.logo_top {
+  width: 200px; height: 70px;
+  margin: 0 auto;
+}
+
+.search_box {
+  float: right;
+  margin-bottom: 15px;
+}
+
+#search_top{height: 24px;}
+
+/* *************** gnb *************** */
+
+.gnb_outer{
+  width: 100%;
+  height: 36px;
+  text-align: center;
+  background-color: #223459;
+}
+
+.gnb_outer ul {
+  width: 1065px;
+  margin: 0 auto;
+}
+
+.gnb_outer ul li {
+  display: inline-block;
+  padding: 0 30px;
+  font-size: 14px; line-height: 36px;
+}
+
+.gnb_outer ul li a {
+  color: white;
+}
+
+.quick_menu {
+  width: 150px;
+  position: fixed;
+  top: 240px;
+  right: 0;
+}
+
+/* *************** visual *************** */
+
+.visual_box{
+  width: 1065px;
+  margin: 0 auto;
+  overflow: hidden;
+  /* object-fit: cover; */
+  margin-bottom: 50px;
+}
+
+.visual_box .main_banner_box {
+  width: 705px; height: 600px;
+  float: left;
+  margin-right: 15px;
+}
+
+.visual_box .sub_banner_box {
+  width: 345px;
+  overflow: hidden;
+}
+.visual_box .sub_banner_box .sub_banner_box01 {
+  width: 345px; height: 385px;
+  margin-bottom: 15px;
+}
+.visual_box .sub_banner_box .sub_banner_box02 {
+  width: 345px; height: 200px;
+}
+
+/* *************** divider *************** */
+
+.divid_line {
+  margin-bottom: 15px;
+}
+
+.divid_line>div {
+  width: 1065px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.divid_line hr{
+  float: left;
+  width: 395px;
+  margin-top: 20px;
+}
+
+.divid_line .txt{
+  font-size: 24px;
+  width: 240px;
+  float: left;
+  text-align: center;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/* *************** event_354_choice *************** */
+
+.choice_354 {
+  width: 1065px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.choice_354 .choice {
+  margin-bottom: 36px;
+}
+
+/* *************** event_new_arrival *************** */
+
+.category {
+  width: 1065px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.category .brand_label {
+  width: 145px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.category #millet,
+.category #m_limited{
+  display: none;
+}
+
+.millet_img, .m_limited_img {display: none;}
+
+#millet:checked ~ .millet_img {display: block;}
+#millet:checked ~ .brand_label .millet {font-weight: bold;}
+#m_limited:checked ~ .m_limited_img {display: block;}
+#m_limited:checked ~ .brand_label .m_limited {font-weight: bold;}
+
+.millet_img{
+  width: 1065px;
+  margin: 0 auto;
+}
+
+.millet_img .millet_left{
+  margin-right: 15px;
+  float: left; 
+}
+
+.millet_img div div {
+  width: 525px;
+  overflow: hidden;
+}
+
+.millet_img div div .left_bottom01 {
+  width: 255px; height: 255px;
+  float: left; 
+  margin-right: 15px;
+}
+.millet_img div div .left_bottom02 {
+  width: 255px; height: 255px;
+  float: left; 
+}
+
+.millet_img div div .right_top01 {
+  width: 255px; height: 255px;
+  float: left; 
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.millet_img div div .right_top02 {
+  width: 255px; height: 255px;
+  float: left; 
+}
+
+.m_limited_img {
+  width: 1065px; height: 720px;
+  background-color: #777;
+}
+
+/* *************** multishop *************** */
+.multishop_img {
+  width: 1065px; 
+  margin: 20px auto; overflow: hidden;
+}
+
+.multishop_img div {
+  width: 345px;
+  float: left; 
+  margin-bottom: 48px;
+}
+
+.multishop_img .multishop_middle{
+  height: 410px;
+  margin: 0 15px;
+}
+.multishop_img .multishop_left .multi_left_01 {margin-bottom: 15px;}
+.multishop_img .multishop_right .multi_right_01 {margin-bottom: 15px;}
+
+/* *************** brand_codi *************** */
+
+.brand_codi_banner{
+  width: 1065px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.brand_codi_banner div{
+  width: 525px; float: left; 
+  margin-top: 15px; margin-bottom: 72px;
+}
+
+.brand_codi_banner .event_banner01{margin-right: 15px;}
+
+/* *************** footer *************** */
+
+.footer{
+  background-color: #fafafa;
+  height: 180px;
+  overflow: hidden;
+  width: 1065px;
+  margin: 0 auto;
+}
+
+.footer .footer_left{
+  width: 795px;
+  margin-right: 15px;
+}
+
+.footer .footer_left .footer_category li{
+  color: #363636;
+  float: left;
+  padding: 3px 12px;
+}
+
+.footer .footer_right {
+  width: 160px; height: 28px;
+  float: right;
+}
+
+.footer hr{
+  width: 1065px;
+}
+
+.footer_info{
+  width: 1065px;
+  margin: 10px auto;
+}
+
+.footer_info .footer_text{
+  float: left;
+  width: 795px;
+  font-size: 14px;
+}
+
+.footer_info .select {
+  width: 240px;
+  float: right;
+}
+
+.test_box {
+  width: 100%; height: 1000px;
+  background-color: #223459;
+}
